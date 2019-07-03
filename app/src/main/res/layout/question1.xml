@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".MainActivity">
+
+ <ng.blinddate.blinddate.Fonts.FontMont
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_centerHorizontal="true"
+     android:layout_marginTop="20dp"
+     android:text="@string/quetest1"
+     android:textSize="18sp"
+     android:textColor="@color/text1"
+     />
+
+    <ng.blinddate.blinddate.Fonts.FontMont
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:textSize="18sp"
+        android:text="@string/quest12"
+        android:textColor="@color/text1"
+        />
+
+    <ng.blinddate.blinddate.Fonts.FontMont
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textColor="@color/text1"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="100dp"
+        android:text="Skip"
+        android:layout_marginEnd="40dp"
+        android:textSize="20sp"
+        />
+
+    <RelativeLayout
+        android:layout_width="380dp"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        android:background="@drawable/quesrect"
+        >
+
+        <ng.blinddate.blinddate.Fonts.FontAve
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textColor="@color/text1"
+            android:layout_marginTop="25dp"
+            android:text="Am looking for "
+            android:layout_marginStart="40dp"
+            android:textSize="20sp"
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:layout_marginStart="25dp"
+            android:text="Man"
+            android:textColor="@color/text1"
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:layout_marginStart="150dp"
+            android:text="Woman"
+            android:textColor="@color/text1"
+            />
+
+        <ng.blinddate.blinddate.Fonts.FontAve
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textColor="@color/text1"
+            android:layout_marginTop="120dp"
+            android:text="Age from"
+            android:layout_marginStart="30dp"
+            android:textSize="18sp"
+            />
+
+        <ng.blinddate.blinddate.Fonts.FontAve
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textColor="@color/text1"
+            android:layout_marginTop="170dp"
+            android:text="18yrs"
+            android:layout_marginStart="30dp"
+            android:textSize="16sp"
+            />
+        <ng.blinddate.blinddate.Fonts.FontAve
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textColor="@color/text1"
+            android:layout_marginTop="170dp"
+            android:text="29yrs"
+            android:layout_marginStart="140dp"
+            android:textSize="16sp"
+            />
+
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="90dp"
+        android:layout_marginStart="30dp"
+        android:background="@drawable/buttonwhite"
+        android:textColor="@color/text1"
+        android:text="Skip"
+
+        />
+
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="90dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/buttonblue"
+        android:textColor="@color/white"
+        android:text="Next"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/viewpagedesign"
+        ></RelativeLayout>
+
+
+</RelativeLayout>
