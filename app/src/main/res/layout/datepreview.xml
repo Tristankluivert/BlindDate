@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/datecolor"
+    >
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/datecolor"
+    >
+
+ <ImageView
+     android:layout_width="match_parent"
+     android:layout_height="400dp"
+     android:src="@drawable/mypic"
+     android:scaleType="centerCrop"
+     />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:layout_marginTop="400dp"
+        android:background="@color/datecolor">
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="260dp"
+            android:layout_marginBottom="220dp"
+            android:background="@drawable/redot"
+
+            />
+
+        <ng.blinddate.blinddate.Fonts.FontMont
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="210dp"
+            android:text="Vivian Joshua,"
+            android:textSize="28sp" />
+
+        <ng.blinddate.blinddate.Fonts.FontMont
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="220dp"
+            android:layout_marginBottom="210dp"
+            android:text="25"
+            android:textSize="28sp" />
+
+        <ng.blinddate.blinddate.Fonts.FontMont
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="65dp"
+            android:padding="10dp"
+            android:text="@string/aboutdate"
+            android:textSize="18sp" />
+
+        <ng.blinddate.blinddate.Fonts.FontMontMe
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="20dp"
+            android:text="210 Instagram Photos"
+            android:id="@+id/picount"
+            android:textSize="18sp" />
+
+
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/avatary"
+            android:layout_marginTop="300dp"
+            />
+
+
+
+
+    </RelativeLayout>
+
+
+    <include layout="@layout/datepreview1"
+        android:layout_marginTop="660dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content" />
+
+
+    <include layout="@layout/datepreview2"
+        android:layout_marginTop="1440dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content" />
+
+</RelativeLayout>
+
+
+
+</ScrollView>

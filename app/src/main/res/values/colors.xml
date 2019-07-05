@@ -9,4 +9,7 @@
     <color name="peoplegreen">#6ECB2B</color>
     <color name="black1">#300a0a0a</color>
     <color name="grey1">#c4c2c2</color>
+    <color name="red">#FF0202</color>
+    <color name="datecolor">#EDF5FA</color>
+    <color name="black">#000000</color>
 </resources>

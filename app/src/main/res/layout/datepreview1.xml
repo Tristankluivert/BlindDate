@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/datecolor"
+    >
+
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:background="@color/datecolor"
+    >
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/dummyimage"
+
+
+            />
+
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/dummyimage"
+            android:layout_marginStart="80dp"
+
+            />
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/dummyimage"
+            android:layout_marginStart="160dp"
+
+            />
+
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/dummyimage"
+            android:layout_marginStart="240dp"
+
+            />
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/dummyimage"
+            android:layout_marginTop="60dp"
+            />
+
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/dummyimage"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="60dp"
+            />
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/dummyimage"
+            android:layout_marginStart="160dp"
+            android:layout_marginTop="60dp"
+            />
+
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/dummyimage"
+            android:layout_marginStart="240dp"
+            android:layout_marginTop="60dp"
+            />
+
+</RelativeLayout>
+
+           <ng.blinddate.blinddate.Fonts.FontMontMe
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="160dp"
+               android:textSize="20sp"
+               android:text="About Me"
+               android:layout_marginStart="50dp"
+               android:textColor="#000"
+               />
+
+        <RelativeLayout
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="220dp"
+            android:layout_centerHorizontal="true"
+            android:paddingBottom="30dp"
+            android:background="@drawable/usersquare"
+            >
+
+                <ng.blinddate.blinddate.Fonts.FontMont
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:layout_marginTop="10dp"
+                    android:layout_centerHorizontal="true"
+                    android:paddingEnd="5dp"
+                    android:paddingStart="5dp"
+                    android:text="@string/aboutdate"
+                    android:textSize="15sp"
+                    />
+
+        </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="390dp"
+        android:background="@drawable/usersquare"
+        android:orientation="horizontal"
+        android:paddingBottom="30dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ng.blinddate.blinddate.Fonts.FontMont
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Gender"
+                android:textColor="@color/black"
+                android:textSize="15sp"></ng.blinddate.blinddate.Fonts.FontMont>
+
+            <ng.blinddate.blinddate.Fonts.FontMont
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Skin"
+                android:textColor="@color/black"
+                android:textSize="15sp"></ng.blinddate.blinddate.Fonts.FontMont>
+
+            <ng.blinddate.blinddate.Fonts.FontMont
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Body Type"
+                android:textColor="@color/black"
+                android:textSize="15sp"></ng.blinddate.blinddate.Fonts.FontMont>
+
+            <ng.blinddate.blinddate.Fonts.FontMont
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Height"
+                android:textColor="@color/black"
+                android:textSize="15sp"></ng.blinddate.blinddate.Fonts.FontMont>
+
+            <ng.blinddate.blinddate.Fonts.FontMont
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Origin"
+                android:textColor="@color/black"
+                android:textSize="15sp"></ng.blinddate.blinddate.Fonts.FontMont>
+
+            <ng.blinddate.blinddate.Fonts.FontMont
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Religion"
+                android:textColor="@color/black"
+                android:textSize="15sp"></ng.blinddate.blinddate.Fonts.FontMont>
+
+            <ng.blinddate.blinddate.Fonts.FontMont
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Poliitics"
+                android:textColor="@color/black"
+                android:textSize="15sp"></ng.blinddate.blinddate.Fonts.FontMont>
+
+            <ng.blinddate.blinddate.Fonts.FontMont
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Smoking"
+                android:textColor="@color/black"
+                android:textSize="15sp"></ng.blinddate.blinddate.Fonts.FontMont>
+
+            <ng.blinddate.blinddate.Fonts.FontMont
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Drinking"
+                android:textColor="@color/black"
+                android:textSize="15sp"></ng.blinddate.blinddate.Fonts.FontMont>
+
+            <ng.blinddate.blinddate.Fonts.FontMont
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Language"
+                android:textColor="@color/black"
+                android:textSize="15sp">
+
+            </ng.blinddate.blinddate.Fonts.FontMont>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ng.blinddate.blinddate.Fonts.FontMont
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="150dp"
+                android:layout_marginTop="10dp"
+                android:text="Female"
+                android:textColor="@color/black"
+                android:textSize="15sp"></ng.blinddate.blinddate.Fonts.FontMont>
+
+            <ng.blinddate.blinddate.Fonts.FontMont
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="150dp"
+                android:layout_marginTop="10dp"
+                android:text="Melanin"
+                android:textColor="@color/black"
+                android:textSize="15sp"></ng.blinddate.blinddate.Fonts.FontMont>
+
+
+            <ng.blinddate.blinddate.Fonts.FontMont
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="150dp"
+                android:layout_marginTop="10dp"
+                android:text="Slim"
+                android:textColor="@color/black"
+                android:textSize="15sp"></ng.blinddate.blinddate.Fonts.FontMont>
+
+
+            <ng.blinddate.blinddate.Fonts.FontMont
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="150dp"
+                android:layout_marginTop="10dp"
+                android:text="5.5in"
+                android:textColor="@color/black"
+                android:textSize="15sp"></ng.blinddate.blinddate.Fonts.FontMont>
+
+            <ng.blinddate.blinddate.Fonts.FontMont
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="10dp"
+                android:text="Akwa Ibom"
+                android:textColor="@color/black"
+                android:textSize="15sp"></ng.blinddate.blinddate.Fonts.FontMont>
+
+            <ng.blinddate.blinddate.Fonts.FontMont
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="10dp"
+                android:text="Christainity"
+                android:textColor="@color/black"
+                android:textSize="15sp"></ng.blinddate.blinddate.Fonts.FontMont>
+
+            <ng.blinddate.blinddate.Fonts.FontMont
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="10dp"
+                android:text="Non Political"
+                android:textColor="@color/black"
+                android:textSize="15sp"></ng.blinddate.blinddate.Fonts.FontMont>
+
+            <ng.blinddate.blinddate.Fonts.FontMont
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="150dp"
+                android:layout_marginTop="10dp"
+                android:text="No"
+                android:textColor="@color/black"
+                android:textSize="15sp"></ng.blinddate.blinddate.Fonts.FontMont>
+
+            <ng.blinddate.blinddate.Fonts.FontMont
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="150dp"
+                android:layout_marginTop="10dp"
+                android:text="Yes"
+                android:textColor="@color/black"
+                android:textSize="15sp"></ng.blinddate.blinddate.Fonts.FontMont>
+
+            <ng.blinddate.blinddate.Fonts.FontMont
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="110dp"
+                android:layout_marginTop="10dp"
+                android:text="English, French"
+                android:textColor="@color/black"
+                android:textSize="15sp"></ng.blinddate.blinddate.Fonts.FontMont>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
